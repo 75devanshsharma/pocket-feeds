@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textColor="@android:color/white"
-        android:textSize="50sp"
+        android:textSize="20sp"
         htext:fontAsset="fonts/exo_l_e.otf"
         htext:animateType="evaporate" />
 
