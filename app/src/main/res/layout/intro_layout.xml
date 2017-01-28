@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+\<?xml version="1.0" encoding="utf-8"?>
 <com.heinrichreimersoftware.materialintro.view.parallax.ParallaxRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -11,38 +11,38 @@
     android:padding="@dimen/mi_baseline">
 
     <ImageView
-        android:id="@+id/sl_br1"
+        android:id="@+id/vels1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="@dimen/mi_baseline"
         android:adjustViewBounds="true"
         android:gravity="center"
-        android:src="@drawable/sl1_brightness_1"
+        android:src="@drawable/vels1"
         app:layout_parallaxFactor="0.3"
         tools:ignore="ContentDescription" />
 
     <ImageView
-        android:id="@+id/sl_br3"
+        android:id="@+id/vels3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="@dimen/mi_baseline"
         android:adjustViewBounds="true"
         android:gravity="center"
-        android:src="@drawable/sl1_brightness_3"
+        android:src="@drawable/vels3"
         app:layout_parallaxFactor="0.1"
         tools:ignore="ContentDescription" />
 
     <ImageView
-        android:id="@+id/sl_br2"
+        android:id="@+id/vels2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="@dimen/mi_baseline"
         android:adjustViewBounds="true"
         android:gravity="center"
-        android:src="@drawable/sl1_brightness_2"
+        android:src="@drawable/vels2"
         app:layout_parallaxFactor="0.7"
         tools:ignore="ContentDescription" />
 
@@ -50,7 +50,7 @@
         android:id="@id/mi_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/sl_br1"
+        android:layout_below="@id/vels1"
         android:layout_marginTop="@dimen/mi_baseline"
         android:fontFamily="sans-serif-medium"
         android:gravity="center"

@@ -1,4 +1,4 @@
-package com.zephyr.intro;
+package com.pocketfeeds.intro;
 
 import android.os.Bundle;
 
@@ -26,8 +26,8 @@ public class MainActivity extends IntroActivity {
                 .build());
 
         addSlide(new SimpleSlide.Builder()
-                .title("No more brightness sliders")
-                .description("Just swipe on the statusbar, and change the screen brightness easily.")
+                .title("Information in your pocket")
+                .description("This app gives a quick access to a forum with necessary dept. information")
                 .layout(R.layout.intro_layout)
                 .background(android.R.color.white)
                 .backgroundDark(R.color.gray)
@@ -35,8 +35,8 @@ public class MainActivity extends IntroActivity {
                 .build());
 
         addSlide(new SimpleSlide.Builder()
-                .title("Zephyrthug")
-                .description("Zephyrthug is insane")
+                .title("Materialism")
+                .description("Following the trend of material design")
                 .layout(R.layout.intro_layout)
                 .background(android.R.color.white)
                 .backgroundDark(R.color.gray)
@@ -44,8 +44,8 @@ public class MainActivity extends IntroActivity {
                 .build());
 
         addSlide(new SimpleSlide.Builder()
-                .title("Zephyr")
-                .description("ZephyrRox")
+                .title("Quick Access")
+                .description("CSE department info in your pocket")
                 .layout(R.layout.intro_layout)
                 .background(android.R.color.white)
                 .backgroundDark(R.color.gray)
@@ -53,8 +53,8 @@ public class MainActivity extends IntroActivity {
                 .build());
 
         addSlide(new SimpleSlide.Builder()
-                .title("Zephyr")
-                .description("Desc")
+                .title("Vels University")
+                .description("We excel in all fields")
                 .layout(R.layout.intro_layout)
                 .background(android.R.color.white)
                 .backgroundDark(R.color.gray)

@@ -1,4 +1,4 @@
-package com.zephyr.intro;
+package com.pocketfeeds.intro;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -16,14 +16,14 @@ import com.hanks.htextview.HTextView;
 public class MainPageFragment extends Fragment {
     View rootView;
     HTextView hTextView;
-    String [] sentences = {"Smart", "Smooth", "Feature Rich", "Stable", "Up-to-date", "Reliable", "ZephyrOS.", "Where lags die."};
+    String [] sentences = {"Quick Access", "Material Design", "CSE Department", "in your pocket", "Pocket Feeds", "Made in Vels"};
     final long DELAY = 1000;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         rootView = inflater.inflate(R.layout.intro_main_page, container, false);
-        hTextView = (HTextView) rootView.findViewById(R.id.zephyr_text);
+        hTextView = (HTextView) rootView.findViewById(R.id.pocketfeeds_text);
         int i;
 
         for(i = 0; i < sentences.length - 1; i++ ) {

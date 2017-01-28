@@ -10,7 +10,7 @@
     android:padding="@dimen/mi_baseline">
 
     <com.hanks.htextview.HTextView
-        android:id="@+id/zephyr_text"
+        android:id="@+id/pocketfeeds_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
